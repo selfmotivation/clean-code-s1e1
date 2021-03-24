@@ -4,24 +4,24 @@ body {
     color: #333;
     font-family: Lato, sans-serif;
 }
-.description-with-additional-info {
+.matrix-info {
     width: 500px;
     margin: 0 auto;
     display: block;
     text-align: right;
 }
-.description-with-additional-info img {
+.matrix-info img {
     width: 100%;
 }
-.description-with-additional-info .more-information-link {
+.matrix-info .more-info-link {
     font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-.description-with-additional-info { text-align: center;
+.matrix-info { text-align: center;
 }
 }
-.centered-main-page-element {
+.todo-form {
     display: block;
     width: 400px;
     margin: 0 auto 0;
@@ -113,20 +113,20 @@ li > label {
 li >    input[type="text"] {
     width: 226px
 }
-li > button.delete-task-button:hover {
+li > button.delete-task:hover {
     color: #CF2323;
 }
-button.delete-task-button img {
+button.delete-task img {
     height: 2em;
     transform: rotateZ(45deg);
     transition: transform 200ms ease-in;
 }
-button.delete-task-button img:hover {
+button.delete-task img:hover {
     transform: rotateZ(0);
 }
 
 /* Completed */
-ul#completed-tasks label {
+ul#completed-block label {
     text-decoration: line-through
     color: #888;
 }
