@@ -164,11 +164,11 @@
 
 /* Edit Task */
 
-.list__item .input[type=text] {
+.list__item .input[type="text"] {
     display: none;
 }
 
-.list__item_edit .input[type=text] {
+.list__item_edit .input[type="text"] {
     display: inline-block;
     width: 224px;
 }
