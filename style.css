@@ -1,18 +1,22 @@
 /* Basic Style */
+
 .body {
     background-color: #f8f8f8;
     color: #333;
     font-family: Lato, sans-serif;
 }
+
 .matrix-info {
     width: 500px;
     margin: 0 auto;
     display: block;
     text-align: right;
 }
+
 .matrix-img {
     width: 100%;
 }
+
 .matrix-info .more-info-link {
     font-family: fantasy, cursive;
 }
@@ -24,27 +28,33 @@
     }
 
 }
+
 .todo-form {
     display: block;
     width: 400px;
     margin: 0 auto 0;
 }
+
 .task-label {
     width: 56%;
     display: inline-block;
 }
+
 .list-block {
     margin: 0;
     padding: 0px;
 }
+
 .list-item,
 .list-title {
     list-style: none;
 }
+
 .input,
 .btn{
     outline: none;
 }
+
 .btn {
     background: none;
     border: 0px;
@@ -54,10 +64,13 @@
     font-family: Lato, sans-serif;
     cursor: pointer;
 }
+
 .btn:hover {
     color: #3a3A3a;
 }
+
 /* Heading */
+
 .list-title,
 .label[for='new-task'] {
     color: #333;
@@ -68,6 +81,7 @@
     margin: 0;
     text-transform: uppercase;
 }
+
 .input[type="text"] {
     margin: 0;
     font-size: 18px;
@@ -80,28 +94,34 @@
     font-family: Lato, sans-serif;
     color: #888;
 }
+
 .input[type="text"]:focus {
     color: #333;
 }
 
 /* New Task */
+
 .label[for='new-task'] {
     display: block;
     margin: 0 0 20px;
 }
+
 .input#new-task {
     width: 318px;
 }
+
 #add-block > .btn:hover {
     color: #0FC57C;
 }
 
 /* Task list */
+
 .list-item {
     overflow: hidden;
     padding: 20px 0;
     border-bottom: 1px solid #eee;
 }
+
 .list-item > * {
     vertical-align: middle;
 }
@@ -109,34 +129,41 @@
 .list-item > .input[type="checkbox"] {
     margin: 0 10px;
 }
+
 .list-item > .label {
     padding-left: 10px;
     box-sizing: border-box;
     font-size: 18px;
     width: 226px;
 }
+
 .list-item > .input[type="text"] {
     width: 226px;
 }
+
 .list-item > .btn.delete-task:hover {
     color: #CF2323;
 }
+
 .btn.delete-task .delete-ico {
     height: 2em;
     transform: rotateZ(45deg);
     transition: transform 200ms ease-in;
 }
+
 .btn.delete-task .delete-ico:hover {
     transform: rotateZ(0);
 }
 
 /* Completed */
+
 .list-block#completed-block .label {
     text-decoration: line-through;
     color: #888;
 }
 
 /* Edit Task */
+
 .list-block .list-item .input[type=text] {
     display: none;
 }
