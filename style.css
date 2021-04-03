@@ -1,5 +1,10 @@
 /* Basic Style */
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .body {
   background-color: #f8f8f8;
   color: #333;
@@ -9,12 +14,14 @@
 .matrix-info {
   width: 500px;
   margin: 0 auto;
+  margin-bottom: 23px;
   display: block;
   text-align: right;
 }
 
 .matrix-img {
   width: 100%;
+  margin-bottom: -4px;
 }
 
 .matrix-info__link {
@@ -61,6 +68,7 @@
   color: #888;
   font-size: 15px;
   width: 60px;
+  margin-left: -4px;
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
@@ -77,16 +85,20 @@
   font-weight: 700;
   font-size: 15px;
   border-bottom: 2px solid #333;
-  padding: 30px 0 10px;
+  padding: 49px 0 8px;
   margin: 0;
   text-transform: uppercase;
+}
+
+.todo-form__title:last-of-type {
+  padding-top: 32px;
 }
 
 .input[type="text"] {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
-  height: 21px;
+  height: 19px;
   padding: 0 9px;
   border: 1px solid #ddd;
   background: #fff;
@@ -103,11 +115,11 @@
 
 .add__label {
   display: block;
-  margin: 0 0 20px;
+  margin: -19px 0 20px;
 }
 
 .add__input {
-  width: 318px;
+  width: 298px;
 }
 
 .add__btn:hover {
@@ -118,7 +130,7 @@
 
 .list__item {
   overflow: hidden;
-  padding: 20px 0;
+  padding: 20px 0 17px;
   border-bottom: 1px solid #eee;
 }
 
@@ -127,7 +139,9 @@
 }
 
 .input-checkbox {
-  margin: 0 10px;
+  margin-left: 10px;
+  margin-right: 6px;
+  margin-top: -4px;
 }
 
 .list__label {
@@ -170,7 +184,7 @@
 
 .list__item_edit .input[type="text"] {
   display: inline-block;
-  width: 224px;
+  width: 204px;
 }
 
 .list__item_edit .label {
